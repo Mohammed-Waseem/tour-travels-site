@@ -31,7 +31,7 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 # Add site links in Decap CMS (optional)
 site_url: https://bucolic-tulumba-d21bc1.netlify.app
 
-media_folder: "images/uploads"
+media_folder: "tour-travels-site/images/uploads"
 public_folder: "/images/uploads"
 
 publish_mode: simple
@@ -42,7 +42,7 @@ collections:
     files:
       - name: "packages_list"
         label: "All Packages"
-        file: "content/packages.json"
+        file: "tour-travels-site/content/packages.json"
         fields:
           - label: "Packages"
             name: "items"
@@ -91,7 +91,7 @@ collections:
     files:
       - name: "site_settings"
         label: "General Settings"
-        file: "content/settings.json"
+        file: "tour-travels-site/content/settings.json"
         fields:
           - { label: "Site Name", name: "site_name", widget: "string" }
           - { label: "Tagline", name: "tagline", widget: "string" }
