@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — WanderTag</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<section>
+  <div class="wrap detail-grid">
+    <div>
+      <span class="eyebrow">Get In Touch</span>
+      <h2 style="margin: 12px 0 20px;">Trip Plan Karwayein</h2>
+      <p style="color: var(--ink-soft); margin-bottom: 30px;">Form fill karein ya seedha WhatsApp/call karein — hum 24 ghante ke andar reply karte hain.</p>
+
+      <div class="form-card">
+        <form id="enquiry-form">
+          <div class="form-grid-2">
+            <div class="form-row">
+              <label for="name">Naam</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="destination">Destination / Package</label>
+            <input type="text" id="destination" name="destination">
+          </div>
+          <div class="form-grid-2">
+            <div class="form-row">
+              <label for="travel-date">Travel Date (approx)</label>
+              <input type="date" id="travel-date" name="travel-date">
+            </div>
+            <div class="form-row">
+              <label for="travellers">No. of Travellers</label>
+              <input type="number" id="travellers" name="travellers" min="1" value="2">
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Enquiry Bhejein</button>
+        </form>
+        <p style="font-size: 0.8rem; color: var(--ink-soft); margin-top: 14px; font-family: var(--font-mono);">
+          Submit karne par ye WhatsApp pe khul jayega. (Agar aap email/database chahte hain, README me Formspree setup dekhein.)
+        </p>
+      </div>
+    </div>
+
+    <aside>
+      <div class="summary-ticket">
+        <span class="eyebrow">Direct Contact</span>
+        <h3 style="margin: 12px 0;">Baat Karein</h3>
+        <ul>
+          <li><span>Phone</span><span id="c-phone"></span></li>
+          <li><span>Email</span><span id="c-email"></span></li>
+          <li><span>Address</span><span id="c-address" style="text-align:right; max-width: 60%;"></span></li>
+        </ul>
+        <a class="btn btn-primary" style="width:100%; justify-content:center; margin-top: 10px;" id="c-whatsapp" target="_blank" rel="noopener">WhatsApp Now</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer class="site-footer" id="site-footer"></footer>
+<div id="whatsapp-float"></div>
+
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('settings-ready', (e) => {
+    const s = e.detail;
+    document.getElementById('c-phone').textContent = s.phone;
+    document.getElementById('c-email').textContent = s.email;
+    document.getElementById('c-address').textContent = s.address;
+    document.getElementById('c-whatsapp').href = `https://wa.me/${s.whatsapp_number}`;
+
+    const params = new URLSearchParams(window.location.search);
+    const pkg = params.get('package');
+    if (pkg) document.getElementById('destination').value = pkg;
+
+    document.getElementById('enquiry-form').addEventListener('submit', (evt) => {
+      evt.preventDefault();
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const dest = document.getElementById('destination').value;
+      const date = document.getElementById('travel-date').value;
+      const travellers = document.getElementById('travellers').value;
+      const message = document.getElementById('message').value;
+
+      const text = `Hi, main ${name} hoon.%0APhone: ${phone}%0ADestination: ${dest}%0ADate: ${date}%0ATravellers: ${travellers}%0AMessage: ${message}`;
+      window.open(`https://wa.me/${s.whatsapp_number}?text=${text}`, '_blank');
+    });
+  });
+</script>
+</body>
+</html>

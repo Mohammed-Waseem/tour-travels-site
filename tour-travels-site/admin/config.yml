@@ -1,0 +1,88 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "packages"
+    label: "Tour Packages"
+    files:
+      - name: "packages_list"
+        label: "All Packages"
+        file: "content/packages.json"
+        fields:
+          - label: "Packages"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} — {{category}} — ₹{{price}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "URL Slug (no spaces)", name: "slug", widget: "string", hint: "e.g. goa-beach-getaway. Used in the package link." }
+              - { label: "Category", name: "category", widget: "select", options: ["Domestic", "International", "Adventure", "Honeymoon", "Group"] }
+              - { label: "From City Code", name: "from_city", widget: "string", hint: "e.g. DEL" }
+              - { label: "To City Code", name: "to_city", widget: "string", hint: "e.g. GOI" }
+              - { label: "Duration", name: "duration", widget: "string", hint: "e.g. 4N / 5D" }
+              - { label: "Price (INR, per person)", name: "price", widget: "number", value_type: "int" }
+              - { label: "Main Image", name: "image", widget: "image" }
+              - label: "Gallery Images"
+                name: "gallery"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
+                required: false
+              - { label: "Short Description", name: "short_description", widget: "text" }
+              - label: "Highlights"
+                name: "highlights"
+                widget: "list"
+                field: { label: "Highlight", name: "highlight", widget: "string" }
+                required: false
+              - label: "Itinerary"
+                name: "itinerary"
+                widget: "list"
+                fields:
+                  - { label: "Day Label", name: "day", widget: "string", hint: "e.g. Day 1" }
+                  - { label: "Details", name: "detail", widget: "text" }
+                required: false
+              - label: "Inclusions"
+                name: "inclusions"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+                required: false
+              - label: "Exclusions"
+                name: "exclusions"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+                required: false
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "site_settings"
+        label: "General Settings"
+        file: "content/settings.json"
+        fields:
+          - { label: "Site Name", name: "site_name", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Phone Number", name: "phone", widget: "string" }
+          - { label: "WhatsApp Number (with country code, no +)", name: "whatsapp_number", widget: "string", hint: "e.g. 919876543210" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Hero Heading", name: "hero_heading", widget: "string" }
+          - { label: "Hero Subtext", name: "hero_subtext", widget: "text" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Stamp Text", name: "hero_stamp_text", widget: "string", hint: "e.g. SINCE 2016" }
+          - { label: "About Heading", name: "about_heading", widget: "string" }
+          - { label: "About Text", name: "about_text", widget: "text" }
+          - { label: "About Image", name: "about_image", widget: "image" }
+          - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+          - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Trip", name: "trip", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — WanderTag</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<section>
+  <div class="wrap detail-grid" style="align-items: center;">
+    <div>
+      <span class="eyebrow">Our Story</span>
+      <h2 id="about-heading" style="margin: 12px 0 18px;">Hum kaun hain</h2>
+      <p id="about-text" style="color: var(--ink-soft); font-size: 1.02rem;"></p>
+      <div class="cta-row" style="margin-top: 26px;">
+        <a href="contact.html" class="btn btn-primary">Humse Baat Karein</a>
+      </div>
+    </div>
+    <div>
+      <img id="about-image" src="" alt="About WanderTag" style="border-radius: 6px; box-shadow: 10px 10px 0 rgba(11,61,60,0.12);">
+    </div>
+  </div>
+</section>
+
+<section class="bg-paper">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Hamare Numbers</span>
+      <h2>Trust Built <span class="italic-accent">Over Years</span></h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-item"><span class="num">500+</span><h3>Happy Families</h3><p>Trips successfully organized har saal.</p></div>
+      <div class="feature-item"><span class="num">40+</span><h3>Destinations</h3><p>Domestic aur international, dono covered.</p></div>
+      <div class="feature-item"><span class="num">8+</span><h3>Years Experience</h3><p>2016 se travel industry me active.</p></div>
+      <div class="feature-item"><span class="num">24x7</span><h3>Support</h3><p>Trip se pehle aur trip ke dauraan, hamesha available.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="site-footer"></footer>
+<div id="whatsapp-float"></div>
+
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('settings-ready', (e) => {
+    const s = e.detail;
+    document.getElementById('about-heading').textContent = s.about_heading;
+    document.getElementById('about-text').textContent = s.about_text;
+    document.getElementById('about-image').src = s.about_image;
+  });
+</script>
+</body>
+</html>

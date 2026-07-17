@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — WanderTag</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Moments</span>
+      <h2>Travel <span class="italic-accent">Gallery</span></h2>
+      <p>Hamare travellers ke trips se kuch yaadgaar pal.</p>
+    </div>
+    <div class="gallery-masonry" id="gallery-grid"></div>
+  </div>
+</section>
+
+<footer class="site-footer" id="site-footer"></footer>
+<div id="whatsapp-float"></div>
+
+<script src="js/main.js"></script>
+<script src="js/packages.js"></script>
+<script>
+  async function renderGallery() {
+    const grid = document.getElementById('gallery-grid');
+    try {
+      const packages = await loadPackages();
+      const images = packages.flatMap(p => [p.image, ...(p.gallery || [])]);
+      grid.innerHTML = images.map(src => `<img src="${src}" alt="Travel photo" loading="lazy">`).join('');
+    } catch (err) {
+      grid.innerHTML = '<p class="empty-state">Gallery load nahi ho payi.</p>';
+    }
+  }
+  renderGallery();
+</script>
+</body>
+</html>

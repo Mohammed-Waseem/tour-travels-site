@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "slug": "kerala-backwaters",
+      "title": "Kerala Backwaters Escape",
+      "category": "Domestic",
+      "from_city": "DEL",
+      "to_city": "COK",
+      "duration": "5N / 6D",
+      "price": 24999,
+      "image": "https://picsum.photos/seed/kerala1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/kerala2/800/600",
+        "https://picsum.photos/seed/kerala3/800/600"
+      ],
+      "short_description": "Houseboat stay, Munnar tea gardens aur Kochi ki heritage streets.",
+      "highlights": ["Houseboat overnight stay", "Munnar tea garden tour", "Kochi heritage walk", "Ayurvedic spa session"],
+      "itinerary": [
+        { "day": "Day 1", "detail": "Cochin arrival, local sightseeing, hotel check-in." },
+        { "day": "Day 2", "detail": "Munnar transfer, tea garden visit, viewpoint stop." },
+        { "day": "Day 3", "detail": "Munnar to Thekkady, spice plantation tour." },
+        { "day": "Day 4", "detail": "Alleppey houseboat check-in, backwater cruise, overnight stay." },
+        { "day": "Day 5", "detail": "Houseboat checkout, Kochi return, free evening." },
+        { "day": "Day 6", "detail": "Departure transfer to airport." }
+      ],
+      "inclusions": ["Hotel stay", "Daily breakfast", "AC vehicle for transfers", "Houseboat cruise"],
+      "exclusions": ["Flights", "Personal expenses", "Entry tickets"]
+    },
+    {
+      "slug": "manali-adventure",
+      "title": "Manali Mountain Adventure",
+      "category": "Adventure",
+      "from_city": "DEL",
+      "to_city": "KUU",
+      "duration": "4N / 5D",
+      "price": 14999,
+      "image": "https://picsum.photos/seed/manali1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/manali2/800/600",
+        "https://picsum.photos/seed/manali3/800/600"
+      ],
+      "short_description": "Solang Valley paragliding, Rohtang Pass aur riverside camping.",
+      "highlights": ["Solang Valley paragliding", "Rohtang Pass excursion", "Riverside camping night", "Old Manali cafe walk"],
+      "itinerary": [
+        { "day": "Day 1", "detail": "Delhi to Manali overnight travel." },
+        { "day": "Day 2", "detail": "Manali arrival, local market visit, rest." },
+        { "day": "Day 3", "detail": "Solang Valley activities: paragliding, ropeway." },
+        { "day": "Day 4", "detail": "Rohtang Pass day trip (weather permitting)." },
+        { "day": "Day 5", "detail": "Checkout, return journey begins." }
+      ],
+      "inclusions": ["Hotel stay", "Daily breakfast & dinner", "All transfers", "One adventure activity"],
+      "exclusions": ["Flights/train fare", "Rohtang permit fee", "Personal expenses"]
+    },
+    {
+      "slug": "bali-honeymoon",
+      "title": "Bali Honeymoon Special",
+      "category": "International",
+      "from_city": "DEL",
+      "to_city": "DPS",
+      "duration": "6N / 7D",
+      "price": 68999,
+      "image": "https://picsum.photos/seed/bali1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/bali2/800/600",
+        "https://picsum.photos/seed/bali3/800/600"
+      ],
+      "short_description": "Ubud ke rice terraces se Seminyak ke sunset beaches tak.",
+      "highlights": ["Private villa stay", "Ubud rice terrace tour", "Sunset dinner cruise", "Couple spa session"],
+      "itinerary": [
+        { "day": "Day 1", "detail": "Denpasar arrival, resort check-in, relax." },
+        { "day": "Day 2", "detail": "Ubud day tour: rice terraces, monkey forest." },
+        { "day": "Day 3", "detail": "Waterfall visit, local village walk." },
+        { "day": "Day 4", "detail": "Transfer to Seminyak, beach evening." },
+        { "day": "Day 5", "detail": "Sunset dinner cruise, couple spa." },
+        { "day": "Day 6", "detail": "Free leisure day, optional water sports." },
+        { "day": "Day 7", "detail": "Departure transfer." }
+      ],
+      "inclusions": ["Villa/resort stay", "Daily breakfast", "Airport transfers", "Sunset dinner cruise"],
+      "exclusions": ["International flights", "Visa fee", "Travel insurance"]
+    },
+    {
+      "slug": "rajasthan-heritage",
+      "title": "Rajasthan Royal Heritage",
+      "category": "Domestic",
+      "from_city": "DEL",
+      "to_city": "JAI",
+      "duration": "6N / 7D",
+      "price": 32999,
+      "image": "https://picsum.photos/seed/rajasthan1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/rajasthan2/800/600",
+        "https://picsum.photos/seed/rajasthan3/800/600"
+      ],
+      "short_description": "Jaipur ke forts, Udaipur ki lakes aur Jodhpur ki blue city.",
+      "highlights": ["Amber Fort elephant ride", "Lake Pichola boat ride", "Mehrangarh Fort visit", "Desert camp evening"],
+      "itinerary": [
+        { "day": "Day 1", "detail": "Jaipur arrival, City Palace visit." },
+        { "day": "Day 2", "detail": "Amber Fort, Hawa Mahal, local bazaars." },
+        { "day": "Day 3", "detail": "Jaipur to Jodhpur transfer." },
+        { "day": "Day 4", "detail": "Mehrangarh Fort, Blue City walk." },
+        { "day": "Day 5", "detail": "Jodhpur to Udaipur transfer." },
+        { "day": "Day 6", "detail": "Lake Pichola boat ride, City Palace Udaipur." },
+        { "day": "Day 7", "detail": "Departure transfer." }
+      ],
+      "inclusions": ["Hotel stay", "Daily breakfast", "AC vehicle throughout", "All sightseeing"],
+      "exclusions": ["Flights/train fare", "Monument entry fees", "Personal expenses"]
+    },
+    {
+      "slug": "goa-beach-getaway",
+      "title": "Goa Beach Getaway",
+      "category": "Domestic",
+      "from_city": "DEL",
+      "to_city": "GOI",
+      "duration": "3N / 4D",
+      "price": 11999,
+      "image": "https://picsum.photos/seed/goa1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/goa2/800/600",
+        "https://picsum.photos/seed/goa3/800/600"
+      ],
+      "short_description": "North aur South Goa ke beaches, water sports aur beach parties.",
+      "highlights": ["North Goa beach tour", "Water sports session", "Old Goa churches", "Sunset cruise"],
+      "itinerary": [
+        { "day": "Day 1", "detail": "Goa arrival, beach resort check-in." },
+        { "day": "Day 2", "detail": "North Goa sightseeing and water sports." },
+        { "day": "Day 3", "detail": "South Goa churches and local markets." },
+        { "day": "Day 4", "detail": "Departure transfer." }
+      ],
+      "inclusions": ["Beach resort stay", "Daily breakfast", "Airport transfers", "One water sports session"],
+      "exclusions": ["Flights", "Alcohol & personal expenses", "Adventure add-ons"]
+    },
+    {
+      "slug": "dubai-city-lights",
+      "title": "Dubai City Lights",
+      "category": "International",
+      "from_city": "DEL",
+      "to_city": "DXB",
+      "duration": "4N / 5D",
+      "price": 44999,
+      "image": "https://picsum.photos/seed/dubai1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/dubai2/800/600",
+        "https://picsum.photos/seed/dubai3/800/600"
+      ],
+      "short_description": "Burj Khalifa, desert safari aur Dubai Marina cruise.",
+      "highlights": ["Burj Khalifa 'At the Top' entry", "Evening desert safari with BBQ", "Dubai Marina dinner cruise", "City sightseeing tour"],
+      "itinerary": [
+        { "day": "Day 1", "detail": "Dubai arrival, hotel check-in, free evening." },
+        { "day": "Day 2", "detail": "City tour: Burj Khalifa, Dubai Mall, Fountain show." },
+        { "day": "Day 3", "detail": "Desert safari with dune bashing and BBQ dinner." },
+        { "day": "Day 4", "detail": "Dubai Marina cruise, free shopping time." },
+        { "day": "Day 5", "detail": "Departure transfer." }
+      ],
+      "inclusions": ["Hotel stay", "Daily breakfast", "Visa assistance", "Desert safari & marina cruise"],
+      "exclusions": ["International flights", "Travel insurance", "Personal expenses"]
+    }
+  ]
+}
