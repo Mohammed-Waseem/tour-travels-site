@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Habib Tours — Umrah & Hajj Packages</title>
+<meta name="description" content="Umrah aur Hajj packages — trusted, transparent aur mehnati service Makkah aur Madinah ke liye.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="route-code"><span>DEL</span><span class="line"></span>&#9992;<span class="line"></span><span>MAKKAH</span></div>
+      <h1 id="hero-heading">Apni agli chutti, bina kisi jhanjhat ke.</h1>
+      <p class="lede" id="hero-subtext">Visa se lekar Ziyarat tak — Makkah aur Madinah ke liye trusted, transparent aur mehnati service.</p>
+      <div class="cta-row">
+        <a href="packages.html" class="btn btn-primary">Packages Dekhein</a>
+        <a href="contact.html" class="btn btn-outline">Free Consultation</a>
+      </div>
+    </div>
+    <div class="postcard-stamp">
+      <span class="postmark" id="hero-stamp">SINCE 2016</span>
+      <img id="hero-image" src="https://picsum.photos/seed/alhabib-hero/700/700" alt="Umrah aur Hajj safar">
+      <p class="caption"><strong>Labbaik Allahumma Labbaik.</strong><br>Har safar, ek ibaadat.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Featured Routes</span>
+      <h2>Popular <span class="italic-accent">Packages</span></h2>
+      <p>Hamare sabse pasandida Umrah aur Hajj packages — verified hotels aur transparent pricing ke saath.</p>
+    </div>
+    <div class="package-grid" id="featured-packages">
+      <p class="empty-state">Loading packages...</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-paper">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why Al Habib Tours</span>
+      <h2>Hum <span class="italic-accent">alag</span> kyu hain</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <span class="num">01</span>
+        <h3>Best Price Guarantee</h3>
+        <p>Hidden charges nahi — jo price dikhega, wahi final hoga.</p>
+      </div>
+      <div class="feature-item">
+        <span class="num">02</span>
+        <h3>Verified Stays</h3>
+        <p>Har hotel aur homestay hamari team dwara personally check kiya gaya hai.</p>
+      </div>
+      <div class="feature-item">
+        <span class="num">03</span>
+        <h3>24x7 Support</h3>
+        <p>Safar ke dauraan kabhi bhi call ya WhatsApp karein, hum available hain.</p>
+      </div>
+      <div class="feature-item">
+        <span class="num">04</span>
+        <h3>Custom Itineraries</h3>
+        <p>Apni budget aur preferences ke hisaab se package customize karwayein.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Kya Kehte Hain Traveller</span>
+      <h2>Traveller <span class="italic-accent">Stories</span></h2>
+    </div>
+    <div class="testimonial-grid" id="testimonials">
+      <p class="empty-state">Loading...</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="wrap">
+    <h2>Apna Umrah ya Hajj plan karne ke liye taiyar hain?</h2>
+    <a href="contact.html" class="btn btn-dark">Free Enquiry Bhejein</a>
+  </div>
+</section>
+
+<footer class="site-footer" id="site-footer"></footer>
+<div id="whatsapp-float"></div>
+
+<script src="js/main.js"></script>
+<script src="js/packages.js"></script>
+<script>
+  document.addEventListener('settings-ready', (e) => {
+    const s = e.detail;
+    document.getElementById('hero-heading').textContent = s.hero_heading;
+    document.getElementById('hero-subtext').textContent = s.hero_subtext;
+    document.getElementById('hero-image').src = s.hero_image;
+    document.getElementById('hero-stamp').textContent = s.hero_stamp_text;
+
+    const tContainer = document.getElementById('testimonials');
+    tContainer.innerHTML = (s.testimonials || []).map(t => `
+      <div class="testimonial-card">
+        <p class="quote">${t.quote}</p>
+        <div class="author">${t.name} &mdash; ${t.trip}</div>
+      </div>
+    `).join('');
+  });
+  renderFeaturedPackages('featured-packages', 3);
+</script>
+</body>
+</html>

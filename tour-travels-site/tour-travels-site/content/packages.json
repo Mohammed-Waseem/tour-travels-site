@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "slug": "economy-umrah-14-days",
+      "title": "Economy Umrah Package",
+      "category": "Economy Umrah",
+      "from_city": "DEL",
+      "to_city": "JED",
+      "duration": "14 Din",
+      "price": 65000,
+      "image": "https://picsum.photos/seed/umrah-economy1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/umrah-economy2/800/600",
+        "https://picsum.photos/seed/umrah-economy3/800/600"
+      ],
+      "short_description": "Budget-friendly Umrah package — Makkah aur Madinah dono me stay, shared accommodation ke saath.",
+      "highlights": ["Sharing basis hotel stay", "Haram se walking distance", "Ziyarat tour included", "Group Umrah guidance"],
+      "itinerary": [
+        { "day": "Din 1-7", "detail": "Makkah arrival, hotel check-in, Umrah ada karna, daily namaz Haram Sharif me." },
+        { "day": "Din 8", "detail": "Madinah ke liye rawangi." },
+        { "day": "Din 9-13", "detail": "Madinah me stay, Masjid-e-Nabawi me namaz, Ziyarat tour (Quba, Uhud, Qiblatain)." },
+        { "day": "Din 14", "detail": "Wapsi flight ke liye Jeddah/Madinah airport transfer." }
+      ],
+      "inclusions": ["Sharing room hotel stay", "Visa processing", "Ziyarat tour", "Airport transfers"],
+      "exclusions": ["International flights", "Food (except mentioned)", "Personal expenses"]
+    },
+    {
+      "slug": "premium-umrah-vip",
+      "title": "Premium VIP Umrah Package",
+      "category": "Premium/VIP Umrah",
+      "from_city": "DEL",
+      "to_city": "JED",
+      "duration": "12 Din",
+      "price": 145000,
+      "image": "https://picsum.photos/seed/umrah-premium1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/umrah-premium2/800/600",
+        "https://picsum.photos/seed/umrah-premium3/800/600"
+      ],
+      "short_description": "5-star hotels, Haram-facing rooms, private transport — comfortable aur premium Umrah experience.",
+      "highlights": ["5-star Haram-view hotel", "Private AC transport", "Personal guide", "Zamzam water aur dates hamper"],
+      "itinerary": [
+        { "day": "Din 1-6", "detail": "Makkah me 5-star hotel stay, Haram-facing room, Umrah ada karna." },
+        { "day": "Din 7", "detail": "Private transport se Madinah rawangi." },
+        { "day": "Din 8-11", "detail": "Madinah me premium hotel stay, Masjid-e-Nabawi ke qareeb, guided Ziyarat." },
+        { "day": "Din 12", "detail": "Departure transfer." }
+      ],
+      "inclusions": ["5-star hotel stay", "Daily breakfast & dinner", "Private transport", "Visa & guide services"],
+      "exclusions": ["International flights", "Lunch", "Personal shopping"]
+    },
+    {
+      "slug": "ramadan-special-umrah",
+      "title": "Ramadan Special Umrah",
+      "category": "Ramadan Special",
+      "from_city": "DEL",
+      "to_city": "JED",
+      "duration": "10 Din",
+      "price": 98000,
+      "image": "https://picsum.photos/seed/ramadan-umrah1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/ramadan-umrah2/800/600",
+        "https://picsum.photos/seed/ramadan-umrah3/800/600"
+      ],
+      "short_description": "Ramadan ke mubarak mahine me Umrah — Taraweeh Haram Sharif me ada karne ka mauka.",
+      "highlights": ["Taraweeh namaz Haram Sharif me", "Iftar arrangements", "Laylatul Qadr nights coverage (dates ke mutabiq)", "Guided group Umrah"],
+      "itinerary": [
+        { "day": "Din 1-5", "detail": "Makkah me stay, Taraweeh aur Umrah ada karna." },
+        { "day": "Din 6", "detail": "Madinah ke liye rawangi." },
+        { "day": "Din 7-9", "detail": "Madinah me stay, Masjid-e-Nabawi me namaz, Ziyarat." },
+        { "day": "Din 10", "detail": "Wapsi transfer." }
+      ],
+      "inclusions": ["Hotel stay", "Iftar & Suhoor arrangements", "Visa processing", "Group Ziyarat tour"],
+      "exclusions": ["International flights", "Lunch", "Personal expenses"]
+    },
+    {
+      "slug": "hajj-package-standard",
+      "title": "Hajj Package (Standard)",
+      "category": "Hajj",
+      "from_city": "DEL",
+      "to_city": "JED",
+      "duration": "21 Din",
+      "price": 385000,
+      "image": "https://picsum.photos/seed/hajj-standard1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/hajj-standard2/800/600",
+        "https://picsum.photos/seed/hajj-standard3/800/600"
+      ],
+      "short_description": "Poora Hajj package — Makkah, Mina, Arafat, Muzdalifah aur Madinah, sab kuch guide ke saath.",
+      "highlights": ["Hajj visa & documentation", "Mina, Arafat, Muzdalifah stay", "Experienced Hajj guide group ke saath", "Madinah Ziyarat included"],
+      "itinerary": [
+        { "day": "Din 1-6", "detail": "Makkah arrival, hotel stay, preparation aur ibaadat." },
+        { "day": "Din 7-11", "detail": "Hajj ke arkaan: Mina, Arafat, Muzdalifah, Jamarat." },
+        { "day": "Din 12-16", "detail": "Makkah wapsi, Tawaf-e-Ziyarat aur Tawaf-e-Wida." },
+        { "day": "Din 17-20", "detail": "Madinah me stay, Masjid-e-Nabawi me namaz, Ziyarat." },
+        { "day": "Din 21", "detail": "Departure transfer." }
+      ],
+      "inclusions": ["Hajj visa", "Hotel & tent accommodation (Mina/Arafat)", "Group guide throughout", "Local transport"],
+      "exclusions": ["International flights", "Qurbani charges", "Personal expenses"]
+    },
+    {
+      "slug": "family-group-umrah",
+      "title": "Family & Group Umrah Package",
+      "category": "Family/Group",
+      "from_city": "DEL",
+      "to_city": "MED",
+      "duration": "15 Din",
+      "price": 78000,
+      "image": "https://picsum.photos/seed/family-umrah1/800/600",
+      "gallery": [
+        "https://picsum.photos/seed/family-umrah2/800/600",
+        "https://picsum.photos/seed/family-umrah3/800/600"
+      ],
+      "short_description": "Poori family ya group ke saath Umrah — family rooms, bachon ke liye special care.",
+      "highlights": ["Family/group rooms available", "Bachon ke liye special assistance", "Group discount available", "Flexible group size"],
+      "itinerary": [
+        { "day": "Din 1-8", "detail": "Madinah arrival, hotel stay, Masjid-e-Nabawi me namaz, Ziyarat." },
+        { "day": "Din 9", "detail": "Makkah ke liye rawangi." },
+        { "day": "Din 10-14", "detail": "Makkah me family stay, Umrah ada karna, Haram Sharif me namaz." },
+        { "day": "Din 15", "detail": "Departure transfer." }
+      ],
+      "inclusions": ["Family/group room stay", "Visa processing", "Group Ziyarat tour", "Airport transfers"],
+      "exclusions": ["International flights", "Food (except mentioned)", "Personal expenses"]
+    }
+  ]
+}
