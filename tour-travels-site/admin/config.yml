@@ -1,37 +1,8 @@
-# Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
-  repo: Mohammed-Waseem/tour-travels-site
   branch: main
-  auth_type: pkce
-  base_url: https://auth.decapbridge.com
-  auth_endpoint: /sites/5095fd28-f72d-426a-ad1e-96e769c2eb26/pkce
-  auth_token_endpoint: /sites/5095fd28-f72d-426a-ad1e-96e769c2eb26/token
-  gateway_url: https://gateway.decapbridge.com
 
-  # See who did what (optional)
-  commit_messages:
-    create: Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
-    update: Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
-    delete: Delete {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
-    uploadMedia: Upload "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
-    deleteMedia: Delete "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
-    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
-
-# Enable PKCE fields (optional, recommended)
-auth:
-  email_claim: email
-  first_name_claim: first_name
-  last_name_claim: last_name
-  avatar_url_claim: avatar_url
-
-# Better Decap + Bridge logo (optional)
-logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-
-# Add site links in Decap CMS (optional)
-site_url: https://bucolic-tulumba-d21bc1.netlify.app
-
-media_folder: "tour-travels-site/images/uploads"
+media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 publish_mode: simple
@@ -42,51 +13,56 @@ collections:
     files:
       - name: "packages_list"
         label: "All Packages"
-        file: "tour-travels-site/content/packages.json"
+        file: "content/packages.json"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "URL Slug (no spaces)", name: "slug", widget: "string", hint: "e.g. hajj-package-standard. Used in the package link." }
-          - { label: "Category", name: "category", widget: "select", options: ["Economy Umrah", "Premium/VIP Umrah", "Ramadan Special", "Hajj", "Family/Group"] }
-          - { label: "From City Code", name: "from_city", widget: "string", hint: "e.g. DEL" }
-          - { label: "To City Code", name: "to_city", widget: "string", hint: "e.g. JED" }
-          - { label: "Duration", name: "duration", widget: "string", hint: "e.g. 14 Din" }
-          - { label: "Price (INR, per person)", name: "price", widget: "number", value_type: "int" }
-          - { label: "Main Image", name: "image", widget: "image" }
-          - label: "Gallery Images"
-            name: "gallery"
+          - label: "Packages"
+            name: "items"
             widget: "list"
-            field: { label: "Image", name: "image", widget: "image" }
-            required: false
-          - { label: "Short Description", name: "short_description", widget: "text" }
-          - label: "Highlights"
-            name: "highlights"
-            widget: "list"
-            field: { label: "Highlight", name: "highlight", widget: "string" }
-            required: false
-          - label: "Itinerary"
-            name: "itinerary"
-            widget: "list"
+            summary: "{{title}} — {{category}} — ₹{{price}}"
             fields:
-              - { label: "Day Label", name: "day", widget: "string", hint: "e.g. Din 1" }
-              - { label: "Details", name: "detail", widget: "text" }
-            required: false
-          - label: "Inclusions"
-            name: "inclusions"
-            widget: "list"
-            field: { label: "Item", name: "item", widget: "string" }
-            required: false
-          - label: "Exclusions"
-            name: "exclusions"
-            widget: "list"
-            field: { label: "Item", name: "item", widget: "string" }
-            required: false
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "URL Slug (no spaces)", name: "slug", widget: "string", hint: "e.g. goa-beach-getaway. Used in the package link." }
+              - { label: "Category", name: "category", widget: "select", options: ["Economy Umrah", "Premium/VIP Umrah", "Ramadan Special", "Hajj", "Family/Group"] }
+              - { label: "From City Code", name: "from_city", widget: "string", hint: "e.g. DEL" }
+              - { label: "To City Code", name: "to_city", widget: "string", hint: "e.g. GOI" }
+              - { label: "Duration", name: "duration", widget: "string", hint: "e.g. 4N / 5D" }
+              - { label: "Price (INR, per person)", name: "price", widget: "number", value_type: "int" }
+              - { label: "Main Image", name: "image", widget: "image" }
+              - label: "Gallery Images"
+                name: "gallery"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
+                required: false
+              - { label: "Short Description", name: "short_description", widget: "text" }
+              - label: "Highlights"
+                name: "highlights"
+                widget: "list"
+                field: { label: "Highlight", name: "highlight", widget: "string" }
+                required: false
+              - label: "Itinerary"
+                name: "itinerary"
+                widget: "list"
+                fields:
+                  - { label: "Day Label", name: "day", widget: "string", hint: "e.g. Day 1" }
+                  - { label: "Details", name: "detail", widget: "text" }
+                required: false
+              - label: "Inclusions"
+                name: "inclusions"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+                required: false
+              - label: "Exclusions"
+                name: "exclusions"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+                required: false
 
   - name: "settings"
     label: "Site Settings"
     files:
       - name: "site_settings"
         label: "General Settings"
-        file: "tour-travels-site/content/settings.json"
+        file: "content/settings.json"
         fields:
           - { label: "Site Name", name: "site_name", widget: "string" }
           - { label: "Tagline", name: "tagline", widget: "string" }

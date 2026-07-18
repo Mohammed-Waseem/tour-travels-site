@@ -70,7 +70,7 @@ function renderWhatsAppFloat(settings) {
   const el = document.getElementById('whatsapp-float');
   if (!el) return;
   el.innerHTML = `
-    <a class="whatsapp-float" href="https://wa.me/${settings.whatsapp_number}?text=Hi! Mujhe tour packages ke baare me jaankari chahiye." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <a class="whatsapp-float" href="https://wa.me/${settings.whatsapp_number}?text=Assalamu Alaikum! Mujhe Umrah/Hajj packages ke baare me jaankari chahiye." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
       &#128241;
     </a>
   `;

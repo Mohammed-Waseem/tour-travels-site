@@ -6,17 +6,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300..900;1,300..900&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 :root {
-  --teal-deep: #0B3D3C;
-  --teal-mid: #145C56;
-  --teal-pale: #E4EEEC;
-  --marigold: #E8A33D;
-  --marigold-dark: #C97F1F;
-  --rani-pink: #C4457B;
-  --cream: #FBF6EC;
-  --paper: #F4EEDF;
-  --charcoal: #1F2421;
-  --ink-soft: #4B5450;
-  --border: #D8CBAE;
+  --teal-deep: #0B4A32;
+  --teal-mid: #146845;
+  --teal-pale: #E3EEE7;
+  --marigold: #C9A227;
+  --marigold-dark: #A8841C;
+  --rani-pink: #7A2E2E;
+  --cream: #FAF7EF;
+  --paper: #F3EEDD;
+  --charcoal: #211D14;
+  --ink-soft: #58544A;
+  --border: #DCD0B0;
 
   --font-display: 'Fraunces', serif;
   --font-body: 'Work Sans', sans-serif;

@@ -1,158 +1,125 @@
 {
   "items": [
     {
-      "slug": "kerala-backwaters",
-      "title": "Kerala Backwaters Escape",
-      "category": "Domestic",
+      "slug": "economy-umrah-14-days",
+      "title": "Economy Umrah Package",
+      "category": "Economy Umrah",
       "from_city": "DEL",
-      "to_city": "COK",
-      "duration": "5N / 6D",
-      "price": 24999,
-      "image": "https://picsum.photos/seed/kerala1/800/600",
+      "to_city": "JED",
+      "duration": "14 Din",
+      "price": 65000,
+      "image": "https://picsum.photos/seed/umrah-economy1/800/600",
       "gallery": [
-        "https://picsum.photos/seed/kerala2/800/600",
-        "https://picsum.photos/seed/kerala3/800/600"
+        "https://picsum.photos/seed/umrah-economy2/800/600",
+        "https://picsum.photos/seed/umrah-economy3/800/600"
       ],
-      "short_description": "Houseboat stay, Munnar tea gardens aur Kochi ki heritage streets.",
-      "highlights": ["Houseboat overnight stay", "Munnar tea garden tour", "Kochi heritage walk", "Ayurvedic spa session"],
+      "short_description": "Budget-friendly Umrah package — Makkah aur Madinah dono me stay, shared accommodation ke saath.",
+      "highlights": ["Sharing basis hotel stay", "Haram se walking distance", "Ziyarat tour included", "Group Umrah guidance"],
       "itinerary": [
-        { "day": "Day 1", "detail": "Cochin arrival, local sightseeing, hotel check-in." },
-        { "day": "Day 2", "detail": "Munnar transfer, tea garden visit, viewpoint stop." },
-        { "day": "Day 3", "detail": "Munnar to Thekkady, spice plantation tour." },
-        { "day": "Day 4", "detail": "Alleppey houseboat check-in, backwater cruise, overnight stay." },
-        { "day": "Day 5", "detail": "Houseboat checkout, Kochi return, free evening." },
-        { "day": "Day 6", "detail": "Departure transfer to airport." }
+        { "day": "Din 1-7", "detail": "Makkah arrival, hotel check-in, Umrah ada karna, daily namaz Haram Sharif me." },
+        { "day": "Din 8", "detail": "Madinah ke liye rawangi." },
+        { "day": "Din 9-13", "detail": "Madinah me stay, Masjid-e-Nabawi me namaz, Ziyarat tour (Quba, Uhud, Qiblatain)." },
+        { "day": "Din 14", "detail": "Wapsi flight ke liye Jeddah/Madinah airport transfer." }
       ],
-      "inclusions": ["Hotel stay", "Daily breakfast", "AC vehicle for transfers", "Houseboat cruise"],
-      "exclusions": ["Flights", "Personal expenses", "Entry tickets"]
+      "inclusions": ["Sharing room hotel stay", "Visa processing", "Ziyarat tour", "Airport transfers"],
+      "exclusions": ["International flights", "Food (except mentioned)", "Personal expenses"]
     },
     {
-      "slug": "manali-adventure",
-      "title": "Manali Mountain Adventure",
-      "category": "Adventure",
+      "slug": "premium-umrah-vip",
+      "title": "Premium VIP Umrah Package",
+      "category": "Premium/VIP Umrah",
       "from_city": "DEL",
-      "to_city": "KUU",
-      "duration": "4N / 5D",
-      "price": 14999,
-      "image": "https://picsum.photos/seed/manali1/800/600",
+      "to_city": "JED",
+      "duration": "12 Din",
+      "price": 145000,
+      "image": "https://picsum.photos/seed/umrah-premium1/800/600",
       "gallery": [
-        "https://picsum.photos/seed/manali2/800/600",
-        "https://picsum.photos/seed/manali3/800/600"
+        "https://picsum.photos/seed/umrah-premium2/800/600",
+        "https://picsum.photos/seed/umrah-premium3/800/600"
       ],
-      "short_description": "Solang Valley paragliding, Rohtang Pass aur riverside camping.",
-      "highlights": ["Solang Valley paragliding", "Rohtang Pass excursion", "Riverside camping night", "Old Manali cafe walk"],
+      "short_description": "5-star hotels, Haram-facing rooms, private transport — comfortable aur premium Umrah experience.",
+      "highlights": ["5-star Haram-view hotel", "Private AC transport", "Personal guide", "Zamzam water aur dates hamper"],
       "itinerary": [
-        { "day": "Day 1", "detail": "Delhi to Manali overnight travel." },
-        { "day": "Day 2", "detail": "Manali arrival, local market visit, rest." },
-        { "day": "Day 3", "detail": "Solang Valley activities: paragliding, ropeway." },
-        { "day": "Day 4", "detail": "Rohtang Pass day trip (weather permitting)." },
-        { "day": "Day 5", "detail": "Checkout, return journey begins." }
+        { "day": "Din 1-6", "detail": "Makkah me 5-star hotel stay, Haram-facing room, Umrah ada karna." },
+        { "day": "Din 7", "detail": "Private transport se Madinah rawangi." },
+        { "day": "Din 8-11", "detail": "Madinah me premium hotel stay, Masjid-e-Nabawi ke qareeb, guided Ziyarat." },
+        { "day": "Din 12", "detail": "Departure transfer." }
       ],
-      "inclusions": ["Hotel stay", "Daily breakfast & dinner", "All transfers", "One adventure activity"],
-      "exclusions": ["Flights/train fare", "Rohtang permit fee", "Personal expenses"]
+      "inclusions": ["5-star hotel stay", "Daily breakfast & dinner", "Private transport", "Visa & guide services"],
+      "exclusions": ["International flights", "Lunch", "Personal shopping"]
     },
     {
-      "slug": "bali-honeymoon",
-      "title": "Bali Honeymoon Special",
-      "category": "International",
+      "slug": "ramadan-special-umrah",
+      "title": "Ramadan Special Umrah",
+      "category": "Ramadan Special",
       "from_city": "DEL",
-      "to_city": "DPS",
-      "duration": "6N / 7D",
-      "price": 68999,
-      "image": "https://picsum.photos/seed/bali1/800/600",
+      "to_city": "JED",
+      "duration": "10 Din",
+      "price": 98000,
+      "image": "https://picsum.photos/seed/ramadan-umrah1/800/600",
       "gallery": [
-        "https://picsum.photos/seed/bali2/800/600",
-        "https://picsum.photos/seed/bali3/800/600"
+        "https://picsum.photos/seed/ramadan-umrah2/800/600",
+        "https://picsum.photos/seed/ramadan-umrah3/800/600"
       ],
-      "short_description": "Ubud ke rice terraces se Seminyak ke sunset beaches tak.",
-      "highlights": ["Private villa stay", "Ubud rice terrace tour", "Sunset dinner cruise", "Couple spa session"],
+      "short_description": "Ramadan ke mubarak mahine me Umrah — Taraweeh Haram Sharif me ada karne ka mauka.",
+      "highlights": ["Taraweeh namaz Haram Sharif me", "Iftar arrangements", "Laylatul Qadr nights coverage (dates ke mutabiq)", "Guided group Umrah"],
       "itinerary": [
-        { "day": "Day 1", "detail": "Denpasar arrival, resort check-in, relax." },
-        { "day": "Day 2", "detail": "Ubud day tour: rice terraces, monkey forest." },
-        { "day": "Day 3", "detail": "Waterfall visit, local village walk." },
-        { "day": "Day 4", "detail": "Transfer to Seminyak, beach evening." },
-        { "day": "Day 5", "detail": "Sunset dinner cruise, couple spa." },
-        { "day": "Day 6", "detail": "Free leisure day, optional water sports." },
-        { "day": "Day 7", "detail": "Departure transfer." }
+        { "day": "Din 1-5", "detail": "Makkah me stay, Taraweeh aur Umrah ada karna." },
+        { "day": "Din 6", "detail": "Madinah ke liye rawangi." },
+        { "day": "Din 7-9", "detail": "Madinah me stay, Masjid-e-Nabawi me namaz, Ziyarat." },
+        { "day": "Din 10", "detail": "Wapsi transfer." }
       ],
-      "inclusions": ["Villa/resort stay", "Daily breakfast", "Airport transfers", "Sunset dinner cruise"],
-      "exclusions": ["International flights", "Visa fee", "Travel insurance"]
+      "inclusions": ["Hotel stay", "Iftar & Suhoor arrangements", "Visa processing", "Group Ziyarat tour"],
+      "exclusions": ["International flights", "Lunch", "Personal expenses"]
     },
     {
-      "slug": "rajasthan-heritage",
-      "title": "Rajasthan Royal Heritage",
-      "category": "Domestic",
+      "slug": "hajj-package-standard",
+      "title": "Hajj Package (Standard)",
+      "category": "Hajj",
       "from_city": "DEL",
-      "to_city": "JAI",
-      "duration": "6N / 7D",
-      "price": 32999,
-      "image": "https://picsum.photos/seed/rajasthan1/800/600",
+      "to_city": "JED",
+      "duration": "21 Din",
+      "price": 385000,
+      "image": "https://picsum.photos/seed/hajj-standard1/800/600",
       "gallery": [
-        "https://picsum.photos/seed/rajasthan2/800/600",
-        "https://picsum.photos/seed/rajasthan3/800/600"
+        "https://picsum.photos/seed/hajj-standard2/800/600",
+        "https://picsum.photos/seed/hajj-standard3/800/600"
       ],
-      "short_description": "Jaipur ke forts, Udaipur ki lakes aur Jodhpur ki blue city.",
-      "highlights": ["Amber Fort elephant ride", "Lake Pichola boat ride", "Mehrangarh Fort visit", "Desert camp evening"],
+      "short_description": "Poora Hajj package — Makkah, Mina, Arafat, Muzdalifah aur Madinah, sab kuch guide ke saath.",
+      "highlights": ["Hajj visa & documentation", "Mina, Arafat, Muzdalifah stay", "Experienced Hajj guide group ke saath", "Madinah Ziyarat included"],
       "itinerary": [
-        { "day": "Day 1", "detail": "Jaipur arrival, City Palace visit." },
-        { "day": "Day 2", "detail": "Amber Fort, Hawa Mahal, local bazaars." },
-        { "day": "Day 3", "detail": "Jaipur to Jodhpur transfer." },
-        { "day": "Day 4", "detail": "Mehrangarh Fort, Blue City walk." },
-        { "day": "Day 5", "detail": "Jodhpur to Udaipur transfer." },
-        { "day": "Day 6", "detail": "Lake Pichola boat ride, City Palace Udaipur." },
-        { "day": "Day 7", "detail": "Departure transfer." }
+        { "day": "Din 1-6", "detail": "Makkah arrival, hotel stay, preparation aur ibaadat." },
+        { "day": "Din 7-11", "detail": "Hajj ke arkaan: Mina, Arafat, Muzdalifah, Jamarat." },
+        { "day": "Din 12-16", "detail": "Makkah wapsi, Tawaf-e-Ziyarat aur Tawaf-e-Wida." },
+        { "day": "Din 17-20", "detail": "Madinah me stay, Masjid-e-Nabawi me namaz, Ziyarat." },
+        { "day": "Din 21", "detail": "Departure transfer." }
       ],
-      "inclusions": ["Hotel stay", "Daily breakfast", "AC vehicle throughout", "All sightseeing"],
-      "exclusions": ["Flights/train fare", "Monument entry fees", "Personal expenses"]
+      "inclusions": ["Hajj visa", "Hotel & tent accommodation (Mina/Arafat)", "Group guide throughout", "Local transport"],
+      "exclusions": ["International flights", "Qurbani charges", "Personal expenses"]
     },
     {
-      "slug": "goa-beach-getaway",
-      "title": "Goa Beach Getaway",
-      "category": "Domestic",
+      "slug": "family-group-umrah",
+      "title": "Family & Group Umrah Package",
+      "category": "Family/Group",
       "from_city": "DEL",
-      "to_city": "GOI",
-      "duration": "3N / 4D",
-      "price": 11999,
-      "image": "https://picsum.photos/seed/goa1/800/600",
+      "to_city": "MED",
+      "duration": "15 Din",
+      "price": 78000,
+      "image": "https://picsum.photos/seed/family-umrah1/800/600",
       "gallery": [
-        "https://picsum.photos/seed/goa2/800/600",
-        "https://picsum.photos/seed/goa3/800/600"
+        "https://picsum.photos/seed/family-umrah2/800/600",
+        "https://picsum.photos/seed/family-umrah3/800/600"
       ],
-      "short_description": "North aur South Goa ke beaches, water sports aur beach parties.",
-      "highlights": ["North Goa beach tour", "Water sports session", "Old Goa churches", "Sunset cruise"],
+      "short_description": "Poori family ya group ke saath Umrah — family rooms, bachon ke liye special care.",
+      "highlights": ["Family/group rooms available", "Bachon ke liye special assistance", "Group discount available", "Flexible group size"],
       "itinerary": [
-        { "day": "Day 1", "detail": "Goa arrival, beach resort check-in." },
-        { "day": "Day 2", "detail": "North Goa sightseeing and water sports." },
-        { "day": "Day 3", "detail": "South Goa churches and local markets." },
-        { "day": "Day 4", "detail": "Departure transfer." }
+        { "day": "Din 1-8", "detail": "Madinah arrival, hotel stay, Masjid-e-Nabawi me namaz, Ziyarat." },
+        { "day": "Din 9", "detail": "Makkah ke liye rawangi." },
+        { "day": "Din 10-14", "detail": "Makkah me family stay, Umrah ada karna, Haram Sharif me namaz." },
+        { "day": "Din 15", "detail": "Departure transfer." }
       ],
-      "inclusions": ["Beach resort stay", "Daily breakfast", "Airport transfers", "One water sports session"],
-      "exclusions": ["Flights", "Alcohol & personal expenses", "Adventure add-ons"]
-    },
-    {
-      "slug": "dubai-city-lights",
-      "title": "Dubai City Lights",
-      "category": "International",
-      "from_city": "DEL",
-      "to_city": "DXB",
-      "duration": "4N / 5D",
-      "price": 44999,
-      "image": "https://picsum.photos/seed/dubai1/800/600",
-      "gallery": [
-        "https://picsum.photos/seed/dubai2/800/600",
-        "https://picsum.photos/seed/dubai3/800/600"
-      ],
-      "short_description": "Burj Khalifa, desert safari aur Dubai Marina cruise.",
-      "highlights": ["Burj Khalifa 'At the Top' entry", "Evening desert safari with BBQ", "Dubai Marina dinner cruise", "City sightseeing tour"],
-      "itinerary": [
-        { "day": "Day 1", "detail": "Dubai arrival, hotel check-in, free evening." },
-        { "day": "Day 2", "detail": "City tour: Burj Khalifa, Dubai Mall, Fountain show." },
-        { "day": "Day 3", "detail": "Desert safari with dune bashing and BBQ dinner." },
-        { "day": "Day 4", "detail": "Dubai Marina cruise, free shopping time." },
-        { "day": "Day 5", "detail": "Departure transfer." }
-      ],
-      "inclusions": ["Hotel stay", "Daily breakfast", "Visa assistance", "Desert safari & marina cruise"],
-      "exclusions": ["International flights", "Travel insurance", "Personal expenses"]
+      "inclusions": ["Family/group room stay", "Visa processing", "Group Ziyarat tour", "Airport transfers"],
+      "exclusions": ["International flights", "Food (except mentioned)", "Personal expenses"]
     }
   ]
 }
