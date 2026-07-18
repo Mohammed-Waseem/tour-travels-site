@@ -29,7 +29,7 @@ auth:
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # Add site links in Decap CMS (optional)
-site_url: https://bucolic-tulumba-d21bc1.netlify.app
+site_url: https://alhabibtours.netlify.app
 
 media_folder: "tour-travels-site/images/uploads"
 public_folder: "/images/uploads"
