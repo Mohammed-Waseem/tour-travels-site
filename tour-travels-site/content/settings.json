@@ -1,19 +1,13 @@
 {
-  "site_name": "WanderTag",
-  "tagline": "Har Trip Ek Kahani",
-  "phone": "+91 98765 43210",
-  "whatsapp_number": "919876543210",
-  "email": "hello@wandertag.in",
-  "address": "212, Connaught Place, New Delhi, India",
-  "hero_heading": "Apni agli chutti, bina kisi jhanjhat ke.",
-  "hero_subtext": "Domestic aur international tour packages — poori planning, best price guarantee, aur 24x7 support ke saath.",
-  "hero_image": "https://picsum.photos/seed/wandertag-hero/700/700",
-  "hero_stamp_text": "SINCE 2016",
-  "about_heading": "Hum kaun hain",
-  "about_text": "WanderTag ek Delhi-based tour aur travel agency hai jo 2016 se families, couples aur groups ke liye stress-free trips plan kar rahi hai. Hamari team har destination khud visit karti hai taaki aapko sirf best hi mile — verified hotels, trusted local guides, aur transparent pricing.",
-  "about_image": "https://picsum.photos/seed/wandertag-about/800/600",
-  "instagram": "https://instagram.com",
+  "site_name": "AL Habib",
   "facebook": "https://facebook.com",
+  "hero_subtext": "Domestic aur international tour packages — poori planning, best price guarantee, aur 24x7 support ke saath.",
+  "about_image": "https://picsum.photos/seed/wandertag-about/800/600",
+  "phone": "+91 98765 43210",
+  "hero_stamp_text": "SINCE 2016",
+  "tagline": "Har Trip Ek Kahani",
+  "about_heading": "Hum kaun hain",
+  "instagram": "https://instagram.com",
   "testimonials": [
     {
       "name": "Priya Sharma",
@@ -30,5 +24,11 @@
       "trip": "Manali Group Trip, 4N/5D",
       "quote": "Budget me best experience mila. Guide bahut knowledgeable tha aur stay bhi comfortable tha."
     }
-  ]
+  ],
+  "address": "212, Connaught Place, New Delhi, India",
+  "hero_image": "https://picsum.photos/seed/wandertag-hero/700/700",
+  "whatsapp_number": "919876543210",
+  "email": "hello@wandertag.in",
+  "hero_heading": "Apni agli chutti, bina kisi jhanjhat ke.",
+  "about_text": "WanderTag ek Delhi-based tour aur travel agency hai jo 2016 se families, couples aur groups ke liye stress-free trips plan kar rahi hai. Hamari team har destination khud visit karti hai taaki aapko sirf best hi mile — verified hotels, trusted local guides, aur transparent pricing."
 }
